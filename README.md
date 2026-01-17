@@ -1,11 +1,11 @@
-# 🏥 Diabetes Prediction with Keras Tuner
+#  Diabetes Prediction with Keras Tuner
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates a Deep Learning approach to predict whether a patient has diabetes based on diagnostic measurements. 
 
 Unlike standard implementations, this project utilizes **Keras Tuner** to perform hyperparameter optimization. The model doesn't just use fixed settings; it programmatically searches for the best combination of layers, neurons, and learning rates to maximize prediction accuracy.
 
-## 📂 The Dataset
+##  The Dataset
 The model is trained on the **Pima Indians Diabetes Dataset**.
 **Input Features:**
 * `Pregnancies`: Number of times pregnant
@@ -20,14 +20,14 @@ The model is trained on the **Pima Indians Diabetes Dataset**.
 **Target:**
 * `Outcome`: 0 (No Diabetes) or 1 (Diabetes)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Python**
 * **TensorFlow / Keras** (Deep Learning Architecture)
 * **Keras Tuner** (Hyperparameter Optimization)
 * **Pandas & NumPy** (Data Handling)
 * **Scikit-Learn** (Preprocessing & Standard Scaling)
 
-## 🔍 Key Technical Features
+##  Key Technical Features
 1.  **Data Preprocessing:** * Features are standardized using `StandardScaler` to ensure the neural network converges faster.
     * Data is split into training and testing sets (80/20 split).
 2.  **Hyperparameter Tuning (RandomSearch):**
@@ -37,7 +37,7 @@ The model is trained on the **Pima Indians Diabetes Dataset**.
     * **Optimizers:** Experiments with `Adam`, `SGD`, `RMSprop`, etc.
     * **Regularization:** Tests different Dropout rates (0.1 - 0.9) to prevent overfitting.
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/YOUR_USERNAME/Diabetes-Prediction-Deep-Learning.git](https://github.com/YOUR_USERNAME/Diabetes-Prediction-Deep-Learning.git)
